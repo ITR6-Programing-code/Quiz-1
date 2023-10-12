@@ -1,0 +1,11 @@
+# This program will compute the total bill of a customer based on the 
+# number of liters needed by the customer
+ 
+liters_gasoline = int(input("Enter number of liters_gasoline to buy:"))
+Price_per_liter = 70
+ 
+total_bill = liters_gasoline * Price_per_liter
+
+print ("total_bill:"  , total_bill )
+
+  
